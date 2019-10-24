@@ -23,6 +23,10 @@ const catchError = (fn) => async (req, res) => {
 
 	try {
 
+		res.setHeader('Access-Control-Allow-Origin', 'https://mansurov.me')
+		res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PATCH, OPTIONS')
+		res.setHeader('Access-Control-Allow-Headers', 'DNT, X-CustomHeader, Keep-Alive, User-Agent, X-Requested-With, If-Modified-Since, Cache-Control, Content-Type')
+
 		return await fn(req, res)
 
 	} catch (err) {
