@@ -1,0 +1,9 @@
+{
+  "name": "ackee",
+  "version": 2,
+  "env": {
+    "ACKEE_MONGODB": "@ackee_mongodb",
+    "ACKEE_USERNAME": "@ackee_username",
+    "ACKEE_PASSWORD": "@ackee_password"
+  }
+}
