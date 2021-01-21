@@ -34,7 +34,7 @@
     "classnames": "^2.2.6",
     "dotenv": "^8.2.0",
     "formbase": "^11.0.0",
-    "immer": "^4.0.1",
+    "immer": "^8.0.1",
     "is-url": "^1.2.4",
     "micro": "^9.3.4",
     "microrouter": "^3.1.3",
