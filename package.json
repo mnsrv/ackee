@@ -41,7 +41,7 @@
     "mongoose": "^5.7.5",
     "node-fetch": "^2.6.0",
     "node-schedule": "^1.3.2",
-    "normalize-url": "^4.5.0",
+    "normalize-url": "^4.5.1",
     "normalize.css": "^8.0.0",
     "permit": "^0.2.4",
     "prop-types": "^15.7.2",
